@@ -1,0 +1,72 @@
+header{
+    color: white;
+    background-color: #f2b978;
+    padding: 20px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;flex-direction: column;
+    min-height: 100%;
+    background-color:#ecf9b3;
+ }
+nav ul {
+    list-style-type: none;
+    padding-top: 12px; padding-bottom: 12px; padding-left: 0px;padding-right: 0px;
+    background-color: #c3dcf3;
+    margin: 0;
+ }
+nav ul li {
+    display: inline;
+    padding: 12px 16px;
+ }
+nav ul li a {
+    text-decoration: none;
+    color: #222f2f;
+ }
+nav ul li:hover {
+    background-color: #eb8920;
+ }
+li.currentPage {
+    background-color: #faebd7;
+ }
+ main{
+    flex: 1;
+    padding: 20px;
+ }
+footer {
+    background-color: #f2b978;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0; left: 0;
+    width: 100%;
+}
+form{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.size-select{
+    display: flex;
+}
+label{
+    display: block;
+}
+input[type="text"], select{
+    width: 200px; padding: 5px;
+    margin-bottom: 20px;
+}
+input[type="radio"] {
+    margin-left: 16px;
+}
+input[type="submit"] {
+    background-color: #0e0f0a;
+    color: #eff2f9;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+}
